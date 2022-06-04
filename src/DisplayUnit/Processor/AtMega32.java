@@ -1,7 +1,7 @@
 package DisplayUnit.Processor;
 
 public class AtMega32 implements Processor{
-    private double price = 80;
+    private double price = Utils.Price.ATMEGA_32.getValue();
 
     @Override
     public double getPrice() {

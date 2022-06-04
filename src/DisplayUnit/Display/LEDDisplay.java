@@ -1,8 +1,9 @@
 package DisplayUnit.Display;
 
+
 public class LEDDisplay implements Display{
 
-    private double price = 30;
+    private double price = Utils.Price.LED.getValue();
 
     @Override
     public double getPrice() {

@@ -2,7 +2,7 @@ package DisplayUnit.Display;
 
 public class LCDDisplay implements Display{
 
-    private double price = 50;
+    private double price = Utils.Price.LCD.getValue();
 
     @Override
     public double getPrice() {

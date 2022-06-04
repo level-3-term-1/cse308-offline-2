@@ -1,7 +1,8 @@
 package DisplayUnit.Processor;
 
+
 public class RaspberryPi implements Processor{
-    private double price = 400;
+    private double price = Utils.Price.RASPBERRY_PI.getValue();
 
     @Override
     public double getPrice() {

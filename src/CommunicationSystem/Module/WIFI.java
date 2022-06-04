@@ -1,7 +1,7 @@
 package CommunicationSystem.Module;
 
 public class WIFI implements Module{
-    private double connectionCost;
+    private double connectionCost = Utils.Price.WIFI.getValue();
 
     @Override
     public double getConnectionCost() {
