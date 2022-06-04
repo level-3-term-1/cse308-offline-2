@@ -72,4 +72,8 @@ public class CommunicationSystem {
         }
         return null;
     }
+
+    public double getMonthlyCharge() {
+        return this.module.getMonthlyCharge();
+    }
 }

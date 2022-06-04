@@ -9,6 +9,7 @@ public class LCDDisplay implements Display{
         return this.price;
     }
 
+
     @Override
     public void setPrice(double newPrice) {
         this.price = newPrice;

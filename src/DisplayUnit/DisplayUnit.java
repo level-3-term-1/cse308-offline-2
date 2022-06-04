@@ -14,6 +14,14 @@ public class DisplayUnit {
     private Display display;
     private DisplayFactory displayFactory;
 
+    public Processor getProcessor() {
+        return processor;
+    }
+
+    public Display getDisplay() {
+        return display;
+    }
+
     public double getCost(){
         return processor.getPrice() + display.getPrice();
     }

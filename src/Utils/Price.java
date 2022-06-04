@@ -9,9 +9,12 @@ public enum Price {
     ARDUINO_MEGA(200),
     ATMEGA_32(80),
     SIM(60),
+    SIM_MONTHLY(25),
     WIFI(100),
+    WIFI_MONTHLY(100),
     LCD(50),
     LED(30),
+    APPLICATION(1000),
     ;
 
     private double value;

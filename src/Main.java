@@ -24,6 +24,7 @@ public class Main {
             switch (command) {
                 case SHOW -> {
                     //show  display units with cost
+                    application.showAllOrder();
                 }
                 case PLACE_ORDER -> {
                     BuildOptions.showsOptions();
@@ -40,6 +41,9 @@ public class Main {
                     take_input = false;
                 }
             }
+
+            System.out.println();
+            System.out.println();
         }
     }
 }
